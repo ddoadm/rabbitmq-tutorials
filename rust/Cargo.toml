@@ -7,5 +7,5 @@ edition = "2018"
 [dependencies]
 futures = "0.3.7"
 lapin = "1.5"
-tokio = { version = "0.3.3", features = ["macros", "rt-multi-thread", "stream"] }
+tokio = { version = "0.3.7", features = ["macros", "rt-multi-thread", "stream"] }
 uuid = { version = "0.8.1", features = ["v4"] }
